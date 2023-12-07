@@ -72,7 +72,7 @@ body {
 /* Main Section */
 
 .container {
-    height: calc(100vh - 120px);
+    height: calc(100vh - 100px);
     width: auto;
     display: flex;
     flex-direction: column;
@@ -132,4 +132,80 @@ font-size: 16px;
 
 .getStarted:hover {
     background-color: var(--accent-clr-secondary);
+}
+
+.info {
+    background-color: black;
+    height: 100vh;
+}
+
+.info hr {
+    color: white;
+    height: 3px;
+}
+ 
+.plans-parent {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 80px;
+}
+
+.plans {
+    height: 130px;
+    border-radius: 10px;
+    background: rgb(228, 217, 226);
+    background: linear-gradient(90deg, rgba(126,24,111,1) 0%, rgba(63,12,56,1) 24%, rgba(0,0,0,1) 100%, rgba(194,31,129,0.8701680501302084) 100%, rgba(9,9,121,1) 100%); 
+    width: 80%;
+    transition: all .3s ease-in;
+    opacity: 0.7;
+}
+
+.plans:hover {
+    transform: scale(1.05);
+    opacity: 1;
+}
+
+.plans h2, p {
+    margin: 20px 20px;
+}
+
+.info h2, h3{
+    color: var(--text-clr-primary);
+}
+
+.info p {
+    color: var(--text-clr-secondary);
+}
+
+.reason-heading {
+    margin-top: 40px;
+    margin-bottom: 20px;
+    margin-left: 140px;
+    font-weight: 700;
+
+}
+
+.reasons {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 30px;
+    margin-left: 140px;
+    margin-right: 140px;
+    flex: 1;
+}
+
+.reasons div {
+    height: 300px;
+    width: 300px;
+    padding: 20px 10px;
+    background: rgb(88,21,163);
+    background: linear-gradient(143deg, rgba(88,21,163,1) 0%, rgba(6,1,19,1) 92%, rgba(0,0,0,1) 100%); 
+    opacity: 0.8;
+    border-radius: 10px;
+}
+
+.reasons div h3 {
+    margin-left: 1rem;
 }
