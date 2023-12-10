@@ -10,7 +10,7 @@
     --accent-clr-primary: #E50914;
     --accent-clr-secondary: #B20710;
     --text-clr-primary: #ffffff;
-    --text-clr-secondary: rgba(255,255,255,0.7);
+    --text-clr-secondary: #ffffffb3;
 }
 
 body {
@@ -23,7 +23,9 @@ body {
     justify-content: space-between;
     align-items: center;
     position: relative;
+    z-index: 1;
     top: 0;
+    margin: 0 1.25em 0 1.25em;
 }
 
 .dropdown-signin {
@@ -52,8 +54,8 @@ body {
     }
 
     .dropdown select {
-        height: 30px;
-        width: 100px;
+        height: 2.5em;
+        width: 6.25em;
         color: rgb(255, 255, 255);
         background: transparent;
         outline: none;
@@ -65,20 +67,20 @@ body {
     }
 
 .logo img {
-    height: 100px;
-    width: 200px;
+    height: 6.25em;
+    width: 12.5em;
 }
 
 /* Main Section */
 
 .container {
-    height: calc(100vh - 100px);
+    height: calc(100vh - 6.25em);
     display: flex;
     flex-direction: column;
     gap: 25px;
     justify-content: center;
-    margin-left: 140px;
-    margin-right: 140px;
+    margin-left: 10em;
+    margin-right: 10em;
 }
 
 .container h1 {
@@ -99,7 +101,7 @@ body {
 
 
 .input{
-    height: 50px;
+    height: 4.3em;
     width: 350px;
     background: transparent;
     border: 1px solid gray;
@@ -117,8 +119,8 @@ font-size: 16px;
 }
 
 .getStarted  {
-    height: 50px;
-    width: 200px;
+    height: 3.2em;
+    width: 12.5em;
     border-radius: 5px;
     background-color: var(--accent-clr-primary);
     outline: none;
@@ -153,7 +155,7 @@ font-size: 16px;
 }
 
 .plans {
-    height: 130px;
+    height: 8.125em;
     border-radius: 10px;
     background: rgb(228, 217, 226);
     background: linear-gradient(90deg, rgba(126,24,111,1) 0%, rgba(63,12,56,1) 24%, rgba(0,0,0,1) 100%, rgba(194,31,129,0.8701680501302084) 100%, rgba(9,9,121,1) 100%); 
@@ -168,7 +170,7 @@ font-size: 16px;
 }
 
 .plans h2, p {
-    margin: 20px 20px;
+    margin: 1.25em 1.25em;
 }
 
 .info h2, h3{
@@ -181,8 +183,8 @@ font-size: 16px;
 
 .reason-heading {
     margin-top: 40px;
-    margin-bottom: 20px;
-    margin-left: 140px;
+    margin-bottom: 1.25em;
+    margin-left: 10em;
     font-weight: 700;
 
 }
@@ -191,16 +193,16 @@ font-size: 16px;
     display: flex;
     align-items: center;
     justify-content: center;
-    gap: 30px;
-    margin-left: 140px;
-    margin-right: 140px;
+    gap: 1.875em;
+    margin-left: 10em;
+    margin-right: 10em;
     flex: 1;
 }
 
 .reasons div {
     height: 300px;
     width: 300px;
-    padding: 20px 10px;
+    padding: 1.25em 10px;
     background: rgb(88,21,163);
     background: linear-gradient(143deg, rgba(88,21,163,1) 0%, rgba(6,1,19,1) 92%, rgba(0,0,0,1) 100%); 
     opacity: 0.8;
@@ -212,7 +214,7 @@ font-size: 16px;
 }
 
 .faq-section h3 {
-    margin-top: 20px;
+    margin-top: 1.25em;
     margin-bottom: 10px;
     font-weight: 600;
 }
@@ -220,8 +222,8 @@ font-size: 16px;
 .faq-section {
     height: 100vh;
     color: var(--text-clr-primary);
-    margin-left: 140px;
-    margin-right: 140px;
+    margin-left: 10em;
+    margin-right: 10em;
     display: flex;
     flex-direction: column;
     gap: 10px;
@@ -233,7 +235,7 @@ font-size: 16px;
     display: flex;
     justify-content: space-between;
     align-items: center;
-    padding: 20px;
+    padding: 1.25em;
     background-color: rgb(53, 52, 52);
     transition: opacity .3s ease-in;
     opacity: 0.8;
@@ -249,7 +251,7 @@ font-size: 16px;
 }
 
 .faq span {
-    font-size: 50px;
+    font-size: 3.125em;
     font-weight: 400;
 }
 
@@ -264,26 +266,26 @@ font-size: 16px;
 
 .footer {
     height: 100%;
-    margin-left: 140px;
+    margin-left: 10em;
     background-color: black;
-    margin-top: 30px;
+    margin-top: 1.875em;
 }
 
 .footer p {
     color: var(--text-clr-secondary);
-    margin-top: 30px;
-    margin-bottom: 30px;
+    margin-top: 1.875em;
+    margin-bottom: 1.875em;
     margin-left: 5px;
 }
 
 .Questions {
-    margin-top: 100px;
+    margin-top: 6.25em;
 }
 
 .footer-links {
     color: var(--text-clr-secondary);
     display: flex;
-    gap: 100px;
+    gap: 6.25em;
 }
 
 .footer-links ul li {
@@ -302,8 +304,8 @@ font-size: 16px;
 }
 
  .footer .dropdown select {
-        height: 30px;
-        width: 100px;
+        height: 3em;
+        width: 6.25em;
         color: rgb(255, 255, 255);
         background: transparent;
         outline: none;
@@ -312,7 +314,7 @@ font-size: 16px;
         margin-right: 5px;
         text-align: center;
         font-weight: 500;
-        margin-top: 50px;
+        margin-top: 3.125em;
      }
 
 
